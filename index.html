@@ -24,8 +24,9 @@
 
 </head>
 <body>
-    <h1>Este é o clima agora!</h1>
+    
     <div class="container">
+        <h1>Este é o clima agora!</h1>
         <div class="form">
             <h3>Olá, bem vindo(a)!</h3>
             <div class="form-input-container">
@@ -35,23 +36,28 @@
                 </button>
             </div>
         </div>
-        <div id="wheater-data">
+        <div id="weather-data">
             <h2>
-                <i class="fa-solid fa-location-dot">Sao Jose</i>
-                <span id="city"></span>
+                <i class="fa-solid fa-location-dot"></i>
+                <span id="city">Sao Jose</span>
                 <img src="" id="country">
             </h2>
-            <p id="temperature">26<span></span>&deg;C</p>
+            <p id="temperature"><span>26</span>&deg;C</p>
             <div id="description-container">
-                <p id="description"></p>
-                <img src="" alt="" id="weather-icon" />
+                <p id="description">Ensolarado</p>
+                <img src="" alt="Condições do tempo" id="weather-icon" />
             </div>
             <div id="details-container">
                 <p id="umidity">
                     <i class="fa-solid fa-droplet"></i>
-                    <span></span>
+                    <span>48%</span>
+                </p>
+                <p id="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <span>2km/h</span>
                 </p>
             </div>
+            
         </div>
     </div>
 </body>
